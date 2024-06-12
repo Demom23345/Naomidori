@@ -4,7 +4,9 @@ $author[Informações do Usuário;1] $authorIcon[$userAvatar[$var[user]];1]
 $thumbnail[$userAvatar[$var[user]];1]
 $description[# [$nickname[$var[user]]\]();1]
 $addField[Informações;
-> Tag: `@$username[$var[user]]`;no;1]
+> ID: `$var[user]`
+> Tag: `@$username[$var[user]]`
+> : ``;no;1]
 
 $color[ACE497;1] $color[F96D5C;2]
 
