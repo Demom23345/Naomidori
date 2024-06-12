@@ -1,4 +1,4 @@
+$var[user;$findUser[$message[2]]]
 
-
-$description[# [$nickname\]()]
-$addField[Informações;>>> Tag: `@$username`;no]
+$description[# [$nickname[$var[user]]\]()]
+$addField[Informações;>>> Tag: `@$username[$var[user]]`;no]
