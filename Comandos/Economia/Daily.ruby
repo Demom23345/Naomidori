@@ -10,3 +10,5 @@ $httpPost[https://pastefy.app/api/v2/paste/$getVar[user-verify;$authorID];{
 $httpAddHeader[Accept;application/json]
 $httpAddHeader[Content-Type;application/json]
 $httpAddHeader[Authorization;Bearer $getVar[token-pastefy]]
+
+$setVar[user-verify;$httpResult[paste;id];$authorID]
