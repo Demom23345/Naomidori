@@ -1,3 +1,5 @@
 $if[$or[$var[p]==botconfig;$var[p]==configbot]==true]
 
-$else ... $endif
+$else
+
+$endif
