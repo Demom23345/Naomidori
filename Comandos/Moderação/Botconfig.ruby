@@ -13,8 +13,8 @@ $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imag
 
 $removeButtons
 
-$addButton[no;ticket#config-$authorID;Ticket;secondary;no;]
-$addButton[no;mod#config-$authorID;Moderação;secondary;no;]
-$addButton[no;botlist#config-$authorID;Botlist;secondary;no;]
-$addButton[no;bump#config-$authorID;Bump;secondary;no;]
+$addButton[no;ticket_config-$authorID;Ticket;secondary;no;]
+$addButton[no;mod_config-$authorID;Moderação;secondary;no;]
+$addButton[no;botlist_config-$authorID;Botlist;secondary;no;]
+$addButton[no;bump_config-$authorID;Bump;secondary;no;]
 
