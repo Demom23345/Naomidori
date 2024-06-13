@@ -9,7 +9,7 @@ $addField[Informações;
 > <:naomidori_premium:1250622130488606720> Premium: ``$json[servodor;premium]``
 > <:naomidori_user:1250622077237727302> Patrocinador: ``$json[servidor;patrocinador]``;no;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
-$image[https://cdn.discordapp.com/attachments/1249519706281349133/1250624586454663240/20240612_223513.jpg;2]
+$image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/20240612_223513.jpg;2]
 
 $removeButtons
 
