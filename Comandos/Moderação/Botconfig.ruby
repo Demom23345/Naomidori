@@ -4,7 +4,7 @@ $onlyIf[$isAdmin[$authorID]==true;
 <:naomidori_errado:1250619921843622010> **|** <@$authorID>, você não tem permissão de utilizar esse comando aqui no servidor.]
 
 $description[# Configurações
->>> Bem Vindo ao menu de configuração! Aqui você pode personalizar todos os sistemas, desativar e ativar e muito mais.;1]
+>>> Bem-vindo ao menu de configuração da Naomidori! Aqui você pode personalizar as configurações para atender às suas necessidades. Desde moderação até preferências de entretenimento, você está no controle. Explore as opções e deixe a Naomidori trabalhar para você!;1]
 $addField[Informações;
 > <:naomidori_premium:1250622130488606720> Premium: ``$if[$getServerVar[premium]==false]Não.$elseif[$getServerVar[premium]==true]Sim.$endif``
 > <:naomidori_user:1250622077237727302> Patrocinador: ``$if[$getUserVar[premium;$botID;$guildID]==false]Nenhum.$elseif[$getUserVar[premium;$botID;$guildID]==true]<@$getUserVar[premium;$botID;$guildID]>$endif``;no;1]
