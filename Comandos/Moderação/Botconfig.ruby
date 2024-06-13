@@ -5,9 +5,9 @@ $onlyIf[$isAdmin[$authorID]==true;
 
 $description[# Configurações
 >>> Bem Vindo ao menu de configuração! Aqui você pode personalizar todos os sistemas, desativar e ativar e muito mais.;1]
-$addField[$json[EMOJI;info] Informações;
-> <:naomidori_premium:1250622130488606720> Premium: ``$getServerVar[premium]``
-> <:naomidori_user:1250622077237727302> Patrocinador: ``$getServerVar[patrocinador]``;no;1]
+$addField[Informações;
+> <:naomidori_premium:1250622130488606720> Premium: ``$json[servodor;premium]``
+> <:naomidori_user:1250622077237727302> Patrocinador: ``$json[servidor;patrocinador]``;no;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
 $image[$json[BOT;banner];2]
 
