@@ -6,7 +6,7 @@ $onlyIf[$isAdmin[$authorID]==true;
 $description[# Configurações
 >>> Bem Vindo ao menu de configuração! Aqui você pode personalizar todos os sistemas, desativar e ativar e muito mais.;1]
 $addField[Informações;
-> <:naomidori_premium:1250622130488606720> Premium: ``$json[servodor;premium]``
+> <:naomidori_premium:1250622130488606720> Premium: ``$if[$or[$json[servodor;premium]==;$json[servodor;premium]==false]==true]Não.$elseif[$json[servodor;premium]==true]Sim.$endif``
 > <:naomidori_user:1250622077237727302> Patrocinador: ``$json[servidor;patrocinador]``;no;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
 $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/20240612_223513.jpg;2]
