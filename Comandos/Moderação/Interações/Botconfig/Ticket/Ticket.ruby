@@ -5,7 +5,7 @@ $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imag
 
 $removeButtons
 
-$addButton[no;ticket#canais-$authorID;Canais;secondary;no;]
-$addButton[no;ticket#cargos-$authorID;Cargos;secondary;no;]
-$addButton[no;ticket#outros-$authorID;Outros;secondary;no;]
-$addButton[no;voltar#botconfig-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
+$addButton[no;ticket_canais-$authorID;Canais;secondary;no;]
+$addButton[no;ticket_cargos-$authorID;Cargos;secondary;no;]
+$addButton[no;ticket_outros-$authorID;Outros;secondary;no;]
+$addButton[no;voltar_botconfig-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
