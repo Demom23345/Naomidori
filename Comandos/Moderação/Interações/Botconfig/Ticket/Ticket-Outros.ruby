@@ -1,7 +1,7 @@
 $description[# Ticket Outros
 > Titulo do canal: `$if[$getUserVar[cargos-ticket;$serverOwner;$guildID]==]📂-ticket$elseif[$getUserVar[cargos-ticket;$serverOwner;$guildID]!=]$getUserVar[cargos-ticket;$serverOwner;$guildID]$endif`
 > Cor do Ticket: `$if[$getServerVar[outros-ticket]==]#000000$elseif[$getServerVar[outros-ticket]!=]$getServerVar[outros-ticket]$endif`
-> quantidade de Tickets por Usuário: `$getUserVar[outros-ticket;$serverOwner;$guildID]`;1]
+> Quantidade de Tickets por Usuário: `$getUserVar[outros-ticket;$serverOwner;$guildID]`;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
 $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/Banner-Ticket.jpg;2]
 
