@@ -1,5 +1,7 @@
-$onlyIf[$guildID!=;**$json[EMOJI;errado] |** <@$authorID>, é impossível utilizar esse comando nas minhas mensagens diretas, esse comando só pode ser usado em **servidores**.]
-$onlyIf[$or[$isAdmin[$authorID]==true;$hasRole[$authorID;$getServerVar[cargo-ticket]]]==true;$json[EMOJI;errado] **|** <@$authorID>, voce nao tem permissão de utilizar esse comando aqui no servidor.]
+$onlyIf[$guildID!=;
+<:naomidori_errado:1250619921843622010> **|** <@$authorID>, é impossível utilizar esse comando nas minhas mensagens diretas, esse comando só pode ser usado em **servidores**.]
+$onlyIf[$isAdmin[$authorID]==true;
+<:naomidori_errado:1250619921843622010> **|** <@$authorID>, você não tem permissão de utilizar esse comando aqui no servidor.]
 
 $description[# Configurações
 >>> Bem Vindo ao menu de configuração! Aqui você pode personalizar todos os sistemas, desativar e ativar e muito mais.;1]
