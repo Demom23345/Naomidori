@@ -22,4 +22,8 @@ $elseif[$customID==setar_canal_logs]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Canal-Logs.ruby
 $elseif[$customID==setar_canal_avaliações]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Canal-Avalia%C3%A7%C3%B5es.ruby
+$elseif[$customID==ticket_atendente-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Cargo-Atendente.ruby
+$elseif[$customID==ticket_blacklist-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Cargo-Blacklist.ruby
 $endif
