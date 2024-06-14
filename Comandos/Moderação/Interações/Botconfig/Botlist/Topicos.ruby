@@ -23,8 +23,8 @@ $addButton[no;botlist_topico-$authorID;Tópico;secondary;no;]
 $addButton[no;voltar_botlist-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
 
 
-$elseif[$getUserVar[anti-botlist;$serverOwner;$guildID]==ON]
-$setUserVar[anti-botlist;OFF;$serverOwner;$guildID]
+$elseif[$getUserVar[anti-botlist;$serverOwner;$guildID]==OFF]
+$setUserVar[anti-botlist;ON;$serverOwner;$guildID]
 
 $description[# Botlist Outros
 $if[$getServerVar[anti-botlist]==ON]<:ligar:1251255673459839026>$elseif[$getServerVar[anti-botlist]==OFF]<:desligar:1251255672134176828>$endif ***Anti-Slash*** <:premium:1251252712100593715>
