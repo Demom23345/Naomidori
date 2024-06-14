@@ -85,7 +85,7 @@ $elseif[$customID==botlist_anti-prefixo-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Anti-Prefixo.ruby
 $elseif[$customID==botlist_topico-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Topicos.ruby
-$elseif[$customID==botlist_botlist_auto_verificação-$authorID]
+$elseif[$customID==botlist_auto_verificação-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Auto-Verifica%C3%A7%C3%A3o.ruby
 
 $elseif[$customID==mod_config-$authorID]
