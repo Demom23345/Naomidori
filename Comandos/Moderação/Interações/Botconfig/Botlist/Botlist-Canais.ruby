@@ -2,7 +2,7 @@ $description[# Botlist Canais
 > Addbot: $if[$getServerVar[canal-botlist]==]`Não configurado`$elseif[$getServerVar[canal-botlist]!=]<#$getServerVar[canal-botlist]>$endif
 > Análises: $if[$getUserVar[canal-botlist;$botID;$guildID]==]`Não configurado`$elseif[$getUserVar[canal-botlist;$botID;$guildID]!=]<#$getUserVar[canal-botlist;$botID;$guildID]>$endif
 > Correios: $if[$getUserVar[canal-botlist;$serverOwner;$guildID]==]`Não configurado`$elseif[$getUserVar[canal-botlist;$serverOwner;$guildID]!=]<#$getUserVar[canal-botlist;$serverOwner;$guildID]>$endif
-> Logs: ;1]
+> Logs: $if[$getServerVar[canal-bump]==]`Não configurado`$elseif[$getServerVar[canal-bump]!=]<#$getServerVar[canal-bump]>$endif;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
 $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/Banner-Botlist.jpg;2]
 
