@@ -61,7 +61,7 @@ $elseif[$customID==setar_canal_analises]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Canal-Analises.ruby
 $elseif[$customID==setar_canal_correios]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Canal-Correios.ruby
-$elseif[$customID==setar_canal_logs]
+$elseif[$customID==setar_canal_logsb]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Canal-Logs.ruby
 
 $elseif[$customID==mod_config-$authorID]
