@@ -7,7 +7,7 @@ $addField[Sistemas;
 > $if[$getUserVar[anti-botlist;$serverOwner;$guildID]==ON]<:ligar:1251255673459839026>$elseif[$getUserVar[anti-botlist;$serverOwner;$guildID]==OFF]<:desligar:1251255672134176828>$endif Tópicos
 ;no;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
-$image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/Banner-Botlist.jpg;2]
+$image[https://github.com/Demom23345/Naomidori/blob/main/Database/Imagens/Banner-Botlist.jpg?raw=true;2]
 
 $removeButtons
 
