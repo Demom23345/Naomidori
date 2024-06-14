@@ -1,6 +1,6 @@
 $description[# Botlist Auto-Verificação
 > Bloqueie automaticamente bots com uma derteminada quantidade de dias da criação.
-Bloquear bots com menos de `$if[$getUserVar[anti-ticket;$botID;$guildID]==]0$elseif[$getUserVar[anti-ticket;$botID;$guildID]!=]$getUserVar[anti-ticket;$botID;$guildID]$endif`
+Bloquear bots com menos de `$if[$or[$getUserVar[anti-ticket;$botID;$guildID]==OFF;$getUserVar[anti-ticket;$botID;$guildID]==ON]==true]0$elseif[$or[$getUserVar[anti-ticket;$botID;$guildID]!=OFF;$getUserVar[anti-ticket;$botID;$guildID]!=ON]==true]$getUserVar[anti-ticket;$botID;$guildID]$endif`
 ;1]
 
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
