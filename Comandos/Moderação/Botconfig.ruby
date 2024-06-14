@@ -9,7 +9,7 @@ $addField[Informações;
 > <:naomidori_premium:1250622130488606720> Premium: ``$if[$getServerVar[premium]==false]Não.$elseif[$getServerVar[premium]==true]Sim.$endif``
 > <:naomidori_user:1250622077237727302> Patrocinador: ``$if[$getUserVar[premium;$botID;$guildID]==false]Nenhum.$elseif[$getUserVar[premium;$botID;$guildID]==true]<@$getUserVar[premium;$botID;$guildID]>$endif``;no;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
-$image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/20240612_223513.jpg;2]
+$image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/Banner-Botconfig.jpg;2]
 
 $removeButtons
 
