@@ -8,8 +8,8 @@ $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imag
 
 $removeButtons
 
-$addButton[no;botlist_canal_addbot-$authorID;Canais;secondary;no;]
-$addButton[no;botlist_canal_analises-$authorID;Cargos;secondary;no;]
-$addButton[no;botlist_canal_correios-$authorID;Outros;secondary;no;]
-$addButton[no;botlist_canal_logs-$authorID;Outros;secondary;no;]
+$addButton[no;botlist_canal_addbot-$authorID;Addbot;secondary;no;]
+$addButton[no;botlist_canal_analises-$authorID;Análises;secondary;no;]
+$addButton[no;botlist_canal_correios-$authorID;Correios;secondary;no;]
+$addButton[no;botlist_canal_logs-$authorID;Logs;secondary;no;]
 $addButton[no;voltar_botconfig-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
