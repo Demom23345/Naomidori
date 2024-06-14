@@ -30,6 +30,8 @@ $elseif[$customID==setar_cargo_atendente]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Cargo-Atendente.ruby
 $elseif[$customID==setar_cargo_blacklist]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Cargo-Blacklist.ruby
+$elseif[$customID==ticket_titulo_canal-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Titulo-Canal.ruby
 $else
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Inexistente.ruby
 $endif
