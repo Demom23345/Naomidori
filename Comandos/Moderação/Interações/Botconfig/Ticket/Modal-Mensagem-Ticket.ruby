@@ -1,5 +1,5 @@
 $newModal[setar_mensagem_ticket;Mensagem Ticket]
-$addTextInput[1;paragraph;MENSAGEM TICKET;1;20;true;$if[$getUserVar[outros-ticket;$botID;$guildID]==]👤 **|** Usuário: 
+$addTextInput[1;paragraph;MENSAGEM TICKET;0;400;true;$if[$getUserVar[outros-ticket;$botID;$guildID]==]👤 **|** Usuário: 
 > {user}
 👔 **|** Assumido por: 
 > {assumido}
