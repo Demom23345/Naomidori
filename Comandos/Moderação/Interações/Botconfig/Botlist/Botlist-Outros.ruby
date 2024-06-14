@@ -1,8 +1,8 @@
 $description[# Botlist Outros
 $if[$getServerVar[anti-botlist]==ON]<:ligar:1251255673459839026>$elseif[$getServerVar[anti-botlist]==OFF]<:desligar:1251255672134176828>$endif ***Anti-Slash*** <:premium:1251252712100593715>
-> Bloqueie automaticamente todos os bots enviados na analise com o gatilho em slash.
+> Bloqueie automaticamente todos os bots enviados na análise com o gatilho em slash.
 $if[$getServerVar[anti-ticket]==ON]<:ligar:1251255673459839026>$elseif[$getServerVar[anti-ticket]==OFF]<:desligar:1251255672134176828>$endif ***Anti-Prefixo*** <:premium:1251252712100593715>
-> Bloqueie automaticamente todos os bots enviados na analise com o gatilho em prefixo.
+> Bloqueie automaticamente todos os bots enviados na análise com o gatilho em prefixo.
 $if[$getUserVar[anti-botlist;$botID;$guildID]==ON]<:ligar:1251255673459839026>$elseif[$getUserVar[anti-botlist;$botID;$guildID]==OFF]<:desligar:1251255672134176828>$endif ***Auto-Verificação*** <:premium:1251252712100593715>
 > Bloqueie automaticamente bots com uma derteminada quantidade de dias da criação.
 $if[$getUserVar[anti-botlist;$serverOwner;$guildID]==ON]<:ligar:1251255673459839026>$elseif[$getUserVar[anti-botlist;$serverOwner;$guildID]==OFF]<:desligar:1251255672134176828>$endif ***Tópicos***
