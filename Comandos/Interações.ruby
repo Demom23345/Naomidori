@@ -25,5 +25,5 @@ https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A
 $elseif[$customID==ticket_atendente-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Cargo-Atendente.ruby
 $elseif[$customID==ticket_blacklist-$authorID]
-https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Cargo-Blacklist.ruby
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Cargo-Blacklist.ruby
 $endif
