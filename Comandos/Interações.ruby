@@ -63,6 +63,22 @@ $elseif[$customID==setar_canal_correios]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Canal-Correios.ruby
 $elseif[$customID==setar_canal_logsb]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Canal-Logs.ruby
+$elseif[$customID==botlist_cargo_bot_em_analise-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Modal-Cargo-Bot-em-Analise.ruby
+$elseif[$customID==botlist_cargo_bot_analisado-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Modal-Cargo-Bot-Analisado.ruby
+$elseif[$customID==botlist_cargo_developer-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Modal-Cargo-Developer.ruby
+$elseif[$customID==botlist_cargo_analisador-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Modal-Cargo-Analisadores.ruby
+$elseif[$customID==setar_cargo_analisadores]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Cargo-Analisadores.ruby
+$elseif[$customID==setar_cargo_bot_analisado]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Cargo-Bot-Analisado.ruby
+$elseif[$customID==setar_cargo_bot_em_analise]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Cargo-Bot-em-Analise.ruby
+$elseif[$customID==setar_cargo_developer]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Cargo-Developer.ruby
 
 $elseif[$customID==mod_config-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Modera%C3%A7%C3%A3o/Mod.ruby
