@@ -1,0 +1,6 @@
+$ephemeral
+$onlyIf[$channelExists[$input[1]]==true;<a:lc_erado:1247216925654782116> **|** <@$authorID>, o canal `$input[1]` não existe, tente novamente.]
+$onlyIf[$channelType[$input[1]]==text;<a:lc_erado:1247216925654782116> **|** <@$authorID>, o canal de addbot não pode ser setada em dm, categorias, canal de voz, topicos ou foruns.]
+
+$setServerVar[canal-botlist;$input[1]]
+<a:certo:1247216825578688703> **|** <@$authorID>, você setou o canal de addbot com sucesso!
