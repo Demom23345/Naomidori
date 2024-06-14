@@ -1,4 +1,4 @@
-$description[# Ticket
+$description[# Botlist
 > Aqui você poderá editar toda a parte do meu sistema de botlist, não se esqueça de configurar os canais corretamente!;1]
 $addField[Sistemas;
 > $if[$getServerVar[anti-botlist]==ON]<:ligar:1251255673459839026>$elseif[$getServerVar[anti-botlist]==OFF]<:desligar:1251255672134176828>$endif Anti-Slash <:premium:1251252712100593715>
