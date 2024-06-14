@@ -45,6 +45,8 @@ $elseif[$customID==botlist_canais-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Botlist-Canais.ruby
 $elseif[$customID==botlist_cargos-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Botlist-Cargos.ruby
+$elseif[$customID==botlist_outros-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Botlist-Outros.ruby
 
 $else
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Inexistente.ruby
