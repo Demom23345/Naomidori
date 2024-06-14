@@ -36,6 +36,10 @@ $elseif[$customID==ticket_cor_canal-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Cor-Ticket.ruby
 $elseif[$customID==ticket_menssagen-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Modal-Mensagem-Ticket.ruby
+
+$elseif[$customID==botlist_config-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Botlist.ruby
+
 $else
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Inexistente.ruby
 $endif
