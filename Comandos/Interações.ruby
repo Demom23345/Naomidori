@@ -20,4 +20,6 @@ $elseif[$customID==setar_categoria_ticket]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Categoria-Ticket.ruby
 $elseif[$customID==setar_canal_logs]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Canal-Logs.ruby
+$elseif[$customID==setar_canal_avaliações]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Ticket/Setar-Canal-Avalia%C3%A7%C3%B5es.ruby
 $endif
