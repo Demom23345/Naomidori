@@ -1,5 +1,5 @@
 $description[# Moderação
-> Explore o menu de Configurações do sistema de ticket da Naomidori para personalizar e otimizar a gestão de tickets. Aqui você pode definir prioridades, categorias e outras configurações essenciais para garantir um suporte eficiente e organizado. Deixe a Naomidori cuidar dos detalhes para que você possa oferecer um suporte excepcional aos seus usuários!;1]
+> Aqui você pode ajustar as configurações de moderação para manter seu servidor seguro e agradável para todos os membros. Personalize filtros, permissões e ferramentas de moderação para garantir um ambiente harmonioso. Deixe a Naomidori ajudar a manter a ordem, para que você possa se concentrar no que é mais importante.;1]
 $color[ACE497;1] $thumbnail[$userAvatar[$botID];1] $color[F96D5C;2]
 $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imagens/Banner-Ticket.jpg;2]
 
