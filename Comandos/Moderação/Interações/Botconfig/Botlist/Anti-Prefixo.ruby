@@ -1,5 +1,5 @@
 $if[$getServerVar[premium]==false] $ephemeral $removeButtons
-<a:lc_erado:1247216925654782116> **|** <@$authorID>, o servidor atual não possuir premium para ativar esse sistema.
+<a:lc_erado:1247216925654782116> **|** <@$authorID>, o servidor atual não possui premium para ativar esse sistema.
 $elseif[$getServerVar[premium]==true]
 $if[$getServerVar[anti-ticket]==ON]
 $setServerVar[anti-ticket;OFF]
