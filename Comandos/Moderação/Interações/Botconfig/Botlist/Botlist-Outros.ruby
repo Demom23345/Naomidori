@@ -13,8 +13,8 @@ $image[https://raw.githubusercontent.com/Demom23345/Naomidori/main/Database/Imag
 
 $removeButtons
 
-$addButton[no;botlist_anti-slahs-$authorID;Anti-Slash;$if[$getServerVar[anti-botlist]==ON]success$elseif[$getServerVar[anti-botlist]==OFF]danger$endif;no;]
-$addButton[no;botlist_anti-prefixo-$authorID;Anti-Prefixo;$if[$getServerVar[anti-ticket]==ON]success$elseif[$getServerVar[anti-ticket]==OFF]danger$endif;no;]
-$addButton[no;botlist_auto_verificação-$authorID;Auto-Verificação;$if[$getUserVar[anti-botlist;$botID;$guildID]==ON]success$elseif[$getUserVar[anti-botlist;$botID;$guildID]==OFF]danger$endif;no;]
-$addButton[no;botlist_topico-$authorID;Tópico;$if[$getUserVar[anti-botlist;$serverOwner;$guildID]==ON]success$elseif[$getUserVar[anti-botlist;$serverOwner;$guildID]==OFF]danger$endif;no;]
+$addButton[no;botlist_anti-slahs-$authorID;Anti-Slash;secondary;no;]
+$addButton[no;botlist_anti-prefixo-$authorID;Anti-Prefixo;secondary;no;]
+$addButton[no;botlist_auto_verificação-$authorID;Auto-Verificação;secondary;no;]
+$addButton[no;botlist_topico-$authorID;Tópico;secondary;no;]
 $addButton[no;voltar_botlist-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
