@@ -1,7 +1,3 @@
-$if[$getServerVar[premium]==false] $ephemeral $removeButtons
-<a:lc_erado:1247216925654782116> **|** <@$authorID>, o servidor atual não possui premium para ativar esse sistema.
-$elseif[$getServerVar[premium]==true]
-
 $if[$getUserVar[anti-botlist;$serverOwner;$guildID]==ON]
 $setUserVar[anti-botlist;OFF;$serverOwner;$guildID]
 
@@ -52,5 +48,4 @@ $addButton[no;botlist_topico-$authorID;Tópico;secondary;no;]
 $addButton[no;voltar_botlist-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
 
 
-$endif
 $endif
