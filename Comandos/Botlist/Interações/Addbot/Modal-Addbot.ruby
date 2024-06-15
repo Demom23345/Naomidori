@@ -1,0 +1,5 @@
+$newModal[botadd;Formulário Addbot]
+$addTextInput[id;short;ID DO BOT;18;23;no;;Digite o ID do seu bot.]
+$addTextInput[prefix;short;PREFIXO DE BOT;1;3;no;;Escreva o prefixo só seu bot.]
+$addTextInput[lang;short;LINGUAGEM DE PROGRAMAÇÃO;3;12;no;;Bdscript | Discord.js | Aoi.js | Outros]
+$addTextInput[desc;paragraph; DESCRIÇÃO DO BOT;15;900;no;;Escreva a descrição do seu bot.]
