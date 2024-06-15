@@ -4,4 +4,6 @@ $elseif[$or[$var[p]==bal;$var[p]==atm;$var[p]==saldo]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Economia/Bal.ruby
 $elseif[$or[$var[p]==userinfo;$var[p]==infouser;$var[p]==ui]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Utilidade/Userinfo.ruby
+$elseif[$or[$var[p]==addbot;$var[p]==ab;$var[p]==pab]==true]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Addbot.ruby
 $endif
