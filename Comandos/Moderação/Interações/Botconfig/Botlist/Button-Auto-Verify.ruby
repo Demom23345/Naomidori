@@ -15,7 +15,7 @@ $addButton[no;botlist_auto_verificação_s-$authorID;$if[$getUserVar[anti-botlis
 $addButton[no;botlist_auto_verificação_d-$authorID;Alterar Dias;secondary;no;]
 $addButton[no;voltar_outros-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
 
-$if[$getUserVar[anti-botlist;$botID;$guildID]==OFF]
+$elseif[$getUserVar[anti-botlist;$botID;$guildID]==OFF]
 $setUserVar[anti-botlist;ON;$botID;$guildID]
 
 $description[# Botlist Auto-Verificação
