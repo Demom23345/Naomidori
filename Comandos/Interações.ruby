@@ -96,6 +96,9 @@ https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A
 $elseif[$customID==setar_dias_auto_verificação]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Botlist/Setar-Dias-Auto-Verifica%C3%A7%C3%A3o.ruby
 
+$elseif[$customID==addbot-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Intera%C3%A7%C3%B5es/Addbot/Modal-Addbot.ruby
+
 $elseif[$customID==mod_config-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Modera%C3%A7%C3%A3o/Mod.ruby
 
