@@ -7,9 +7,10 @@ $onlyIf[$isBot[$input[id]]==true;<a:lc_erado:1247216925654782116> **|** <@$autho
 <a:certo:1247216825578688703> **|** <@$authorID>, seu bot foi enviado com sucesso! Aguade enquanto análisam seu bot.
 
 $sendEmbedMessage[$getUserVar[canal-botlist;$serverOwner;$guildID];<@$authorID>;
-<a:Loading:1251352348262010892> | $nickname Seu Bot Foi Enviado;;>>> O bot **$username[$input[id]]#$discriminator[$input[id]]** foi enviado com sucesso para análise! Aguarde os `verificadores` analisarem seu bot **$username**;ACE497;;;$username | $authorID;$authorAvatar;$userAvatar[$input[id]];;yes;no]
+<a:Loading:1251352348262010892> | $nickname Seu Bot Foi Enviado;;
+>>> O bot **$username[$input[id]]#$discriminator[$input[id]]** foi enviado com sucesso para análise! **$username** aguarde os `verificadores` analisarem seu bot.;ACE497;;;$username | $authorID;$authorAvatar;$userAvatar[$input[id]];;yes;no]
 
-$sendEmbedMessage[$var[canal-logs];||<@&$var[cargo-analista]>||;
+$sendEmbedMessage[$getServerVar[canal-bump];||<@&$getUserVar[canal-bump;$botID;$guildID]>||;
 <a:Loading:1251352348262010892> | $nickname Enviou um Bot;;
 $json[EMOJI;bot] **Informações do Bot**
 > **[ 1 \]** ID: ``$input[id]``
