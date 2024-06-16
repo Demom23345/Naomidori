@@ -9,5 +9,5 @@ $addButton[no;mod_entrada-$authorID;Entrada;primary;no;<:entrada:125198452604181
 $addButton[no;mod_saida-$authorID;Saida;primary;no;<:saida:1251984529980260423>]
 $addButton[no;mod_anti_convite-$authorID;Anti-Convite;primary;no;<:convite:1251983841711755405>]
 $addButton[no;mod_anti_fake-$authorID;Anti-Fake;primary;no;<:Users:1251984147929370685>]
-$addButton[yes;mod_cargo_auto-$authorID;Cargo-Auto;primary;no;<:cargos:1251978966403911761>]
-$addButton[no;voltar_botconfig-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
+$addButton[no;mod_cargo_auto-$authorID;Cargo-Auto;primary;no;<:cargos:1251978966403911761>]
+$addButton[yes;voltar_botconfig-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
