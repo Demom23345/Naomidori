@@ -7,8 +7,8 @@ $image[https://github.com/Demom23345/Naomidori/blob/main/Database/Imagens/quazar
 
 $removeButtons
 
-$addButton[no;ticket_titulo_canal-$authorID;Titulo do Canal;primary;no;]
-$addButton[no;ticket_cor_canal-$authorID;Cor do Ticket;primary;no;]
-$addButton[no;ticket_menssagen-$authorID;Alterar Mensagem do Ticket;primary;no;]
-$addButton[no;ticket_total-$authorID;Tickets por Usuário;primary;no;]
+$addButton[no;ticket_titulo_canal-$authorID;Titulo do Canal;primary;no;<:Editar:1251980975316013066>]
+$addButton[no;ticket_cor_canal-$authorID;Cor do Ticket;primary;no;<:Editar:1251980975316013066>]
+$addButton[no;ticket_menssagen-$authorID;Alterar Mensagem do Ticket;primary;no;<:Editar:1251980975316013066>]
+$addButton[no;ticket_total-$authorID;Tickets por Usuário;primary;no;<:Editar:1251980975316013066>]
 $addButton[no;voltar_ticket-$authorID;Voltar;secondary;no;<:voltar_2:1248243543441670234>]
