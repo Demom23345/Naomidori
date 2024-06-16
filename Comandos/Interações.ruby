@@ -108,6 +108,9 @@ https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Int
 $elseif[$customID==queue_add_bot-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Intera%C3%A7%C3%B5es/Queue/Adicionar-Bot.ruby
 
+$elseif[$customID==bot_cancelar-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Intera%C3%A7%C3%B5es/An%C3%A1lisar/Cancelar.ruby
+
 $elseif[$customID==mod_config-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Modera%C3%A7%C3%A3o/Mod.ruby
 
