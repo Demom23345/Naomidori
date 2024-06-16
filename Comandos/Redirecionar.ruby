@@ -6,4 +6,6 @@ $elseif[$or[$var[p]==userinfo;$var[p]==infouser;$var[p]==ui]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Utilidade/Userinfo.ruby
 $elseif[$or[$var[p]==addbot;$var[p]==ab;$var[p]==pab]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Addbot.ruby
+$elseif[$or[$var[p]==queue;$var[p]==q]==true]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Queue.ruby
 $endif
