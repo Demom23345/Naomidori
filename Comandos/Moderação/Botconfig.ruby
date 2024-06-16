@@ -17,4 +17,5 @@ $addButton[no;ticket_config-$authorID;Ticket;primary;no;<:ticket:125197461584111
 $addButton[no;mod_config-$authorID;Moderação;primary;no;<:Mods:1251975599174586490>]
 $addButton[no;botlist_config-$authorID;Botlist;primary;no;<:bots:1251975786106327094>]
 $addButton[no;bump_config-$authorID;Bump;primary;no;<:star_white:1251976988927852630>]
+$addButton[no;$getBotInvite;Me Adicione;link;no]
 
