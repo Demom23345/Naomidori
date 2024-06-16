@@ -6,15 +6,15 @@ $onlyIf[$isAdmin[$authorID]==true;
 $description[# Configurações
 >>> Bem-vindo ao menu de configuração da Naomidori! Aqui você pode personalizar as configurações para atender às suas necessidades. Desde moderação até preferências de entretenimento, você está no controle. Explore as opções e deixe a Naomidori trabalhar para você!;1]
 $addField[Informações;
-> <:naomidori_premium:1250622130488606720> Premium: ``$if[$getServerVar[premium]==false]Não.$elseif[$getServerVar[premium]==true]Sim.$endif``
-> <:naomidori_user:1250622077237727302> Patrocinador: ``$if[$getUserVar[premium;$botID;$guildID]==false]Nenhum.$elseif[$getUserVar[premium;$botID;$guildID]==true]<@$getUserVar[premium;$botID;$guildID]>$endif``;no;1]
+> <:premium:1251252712100593715> **|** Premium: ``$if[$getServerVar[premium]==false]Não.$elseif[$getServerVar[premium]==true]Sim.$endif``
+> <:user:1251974163753598976> **|** Patrocinador: ``$if[$getUserVar[premium;$botID;$guildID]==false]Nenhum.$elseif[$getUserVar[premium;$botID;$guildID]==true]<@$getUserVar[premium;$botID;$guildID]>$endif``;no;1]
 $color[#238DD9;1] $thumbnail[$userAvatar[$botID];1] $color[#238DD9;2]
 $image[https://github.com/Demom23345/Naomidori/blob/main/Database/Imagens/quazar_long_banner.png?raw=true;2]
 
 $removeButtons
 
-$addButton[no;ticket_config-$authorID;Ticket;secondary;no;]
-$addButton[no;mod_config-$authorID;Moderação;secondary;no;]
-$addButton[no;botlist_config-$authorID;Botlist;secondary;no;]
-$addButton[no;bump_config-$authorID;Bump;secondary;no;]
+$addButton[no;ticket_config-$authorID;Ticket;primary;no;<:ticket:1251974615841116264>]
+$addButton[no;mod_config-$authorID;Moderação;primary;no;<:Mods:1251975599174586490>]
+$addButton[no;botlist_config-$authorID;Botlist;primary;no;<:bots:1251975786106327094>]
+$addButton[no;bump_config-$authorID;Bump;primary;no;<:star_white:1251976988927852630>]
 
