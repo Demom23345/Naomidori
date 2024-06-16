@@ -5,6 +5,7 @@ $onlyIf[$or[$getServerVar[1q]!=;$getServerVar[2q]!=;$getServerVar[3q]!=;$getServ
 
 $title[<:queue:1251932959381131358> Queue ( $var[page]/$var[pages] )]
 $description[
+> Bot: `$username[$getServerVar[$var[page]q]]#$discriminator[$getServerVar[$var[page]q]]`
 > Prefixo: `$getUserVar[prefix;$getServerVar[$var[page]q];$guildID]`
 > Dono: `@$username[$getServerVar[$var[page]q]]`
 > Linguagem: `$getUserVar[lang;$getServerVar[$var[page]q];$guildID]`
