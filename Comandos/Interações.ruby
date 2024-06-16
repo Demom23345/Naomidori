@@ -103,6 +103,8 @@ https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Int
 
 $elseif[$customID==queue_proximo-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Intera%C3%A7%C3%B5es/Queue/Proximo.ruby
+$elseif[$customID==queue_voltar-$authorID]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Intera%C3%A7%C3%B5es/Queue/Voltar.ruby
 
 $elseif[$customID==mod_config-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A7%C3%A3o/Intera%C3%A7%C3%B5es/Botconfig/Modera%C3%A7%C3%A3o/Mod.ruby
