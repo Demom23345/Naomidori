@@ -1,5 +1,5 @@
 $description[# Ticket
-> Explore o menu de Configurações do sistema de ticket da Naomidori para personalizar e otimizar a gestão de tickets. Aqui você pode definir prioridades, categorias e outras configurações essenciais para garantir um suporte eficiente e organizado. Deixe a Naomidori cuidar dos detalhes para que você possa oferecer um suporte excepcional aos seus usuários!;1]
+> Explore o menu de Configurações do sistema de ticket do **Quazar** para personalizar e otimizar a gestão de tickets. Aqui você pode definir prioridades, categorias e outras configurações essenciais para garantir um suporte eficiente e organizado.;1]
 $color[#238DD9;1] $thumbnail[$userAvatar[$botID];1] $color[#238DD9;2]
 $image[https://github.com/Demom23345/Naomidori/blob/main/Database/Imagens/quazar_ticket_long_banner.png?raw=true;2]
 
