@@ -1,0 +1,2 @@
+$deleteMessage[$channelID;$messageID]
+$ephemeral
