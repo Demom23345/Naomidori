@@ -15,4 +15,4 @@ $thumbnail[$userAvatar[$getServerVar[$var[page]q]]]
 
 $addButton[no;queue_voltar-$authorID;;secondary;$if[$or[$var[page]==1;$var[page]==0]==true]yes$elseif[$or[$var[page]!=1;$var[page]!=0]==true]no$endif;<:voltar_2:1248243543441670234>]
 $addButton[no;queue_add_bot-$authorID;Adicionar Bot;secondary;no]
-$addButton[no;queue_proximo-$authorID;;secondary;$if[$var[pages]>$var[page]]no$elseif[$var[pages]<=1]yes$endif;<:preoximo_2:1248243526525911151>]
+$addButton[no;queue_proximo-$authorID;;secondary;$if[$var[pages]<$var[page]]no$elseif[$var[pages]>=$var[page]]yes$endif;<:preoximo_2:1248243526525911151>]
