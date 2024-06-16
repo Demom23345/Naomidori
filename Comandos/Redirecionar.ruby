@@ -8,4 +8,6 @@ $elseif[$or[$var[p]==addbot;$var[p]==ab;$var[p]==pab]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Addbot.ruby
 $elseif[$or[$var[p]==queue;$var[p]==q]==true]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Queue.ruby
+$elseif[$or[$var[p]==análise;$var[p]==análisar;$var[p]==an]==true]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Botlist/Análisar.ruby
 $endif
