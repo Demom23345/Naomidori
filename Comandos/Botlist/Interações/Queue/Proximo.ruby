@@ -8,7 +8,7 @@ $title[<:queue:1251932959381131358> Queue ( $var[page]/$var[pages] )]
 $description[
 > Bot: `$username[$getServerVar[$var[page]q]]#$discriminator[$getServerVar[$var[page]q]]`
 > Prefixo: `$getUserVar[prefix;$getServerVar[$var[page]q];$guildID]`
-> Dono: `@$username[$getServerVar[$var[page]q]]`
+> Dono: `@$username[$getUserVar[dono;$getServerVar[$var[page]q];$guildID]]`
 > Linguagem: `$getUserVar[lang;$getServerVar[$var[page]q];$guildID]`
 ]
 $thumbnail[$userAvatar[$getServerVar[$var[page]q]]]
