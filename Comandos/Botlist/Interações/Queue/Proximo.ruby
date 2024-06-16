@@ -1,4 +1,4 @@
-$setVar[1q;$sum[$getVar[1q;$authorID];1];$authorID]
+$setVar[1q;$sum[$getVar[1q;$authorID];1];$authorID] $removeButtons
 
 $var[page;$getVar[1q;$authorID]]
 
