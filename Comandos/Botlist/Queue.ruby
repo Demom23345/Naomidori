@@ -1,5 +1,5 @@
 $var[page;1]
-$var[pages;$if[$getServerVar[1q]!=]1$elseif[$getServerVar[2q]!=]2$elseif[$getServerVar[3q]!=]3$elseif[$getServerVar[4q]!=]4$elseif[$getServerVar[5q]!=]5$elseif[$getServerVar[6q]!=]6$else0$endif]
+$var[pages;$if[$getServerVar[6q]!=]6$elseif[$getServerVar[5q]!=]5$elseif[$getServerVar[4q]!=]4$elseif[$getServerVar[3q]!=]3$elseif[$getServerVar[2q]!=]2$elseif[$getServerVar[1q]!=]1$else0$endif]
 
 $onlyIf[$or[$getServerVar[1q]!=;$getServerVar[2q]!=;$getServerVar[3q]!=;$getServerVar[4q]!=;$getServerVar[5q]!=;$getServerVar[6q]!=]==true;**|** <@$authorID>, não há nenhum bot na lista de espera.]]
 
