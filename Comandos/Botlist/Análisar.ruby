@@ -6,7 +6,7 @@ $onlyIf[$getUserVar[wait;$mentioned[1];$guildID]==true;**<a:lc_erado:12472169256
 $setVar[2q;$mentioned[1];$authorID]
 
 $description[# Enivar Análise
->>> User os botões abaixo para enviar a análise do bot **$username[$mentioned[1]]#$discriminator[$mentioned[1]]**]
+>>> Use os botões abaixo para enviar a análise do bot **$username[$mentioned[1]]#$discriminator[$mentioned[1]]**]
 $footer[Análisador: $username $addTimestamp] $footerIcon[$authorAvatar]
 $thumbnail[$userAvatar[$mentioned[1]]]
 $color[ffff]
