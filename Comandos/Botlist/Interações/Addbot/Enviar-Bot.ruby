@@ -7,7 +7,7 @@ $if[$getServerVar[anti-botlist]==ON]$onlyIf[$checkContains[$input[prefix];/;slas
 $if[$getServerVar[anti-ticket]==ON]$onlyIf[$checkContains[$input[prefix];/;slash;Slash;slahs;Slahs;barra;Barra]==false;<a:lc_erado:1247216925654782116> **|** <@$authorID>, não estamos aceitando bots com comandos em slash.]$endif
 $if[$getUserVar[anti-botlist;$botID;$guildID]==ON] $textSplit[$creationDate[$input[1]];-] $var[date;$caculate[$date-$getUserVar[anti-ticket;$botID;$guildID]]] $if[$splitText[3]>$var[date]] <a:lc_erado:1247216925654782116> **|** <@$authorID>, seu bot não atende os requisitos da data de criação. $endif $endif
 
-<a:certo:1247216825578688703> **|** <@$authorID>, seu bot foi enviado com sucesso! Aguade enquanto análisam seu bot.
+<a:certo:1247216825578688703> **|** <@$authorID>, seu bot foi enviado com sucesso! Aguarde enquanto análisam seu bot.
 
 $sendEmbedMessage[$getUserVar[canal-botlist;$serverOwner;$guildID];<@$authorID>;
 <a:Loading:1251352348262010892> | $nickname Seu Bot Foi Enviado;;
