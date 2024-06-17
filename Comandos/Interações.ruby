@@ -117,6 +117,7 @@ https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Modera%C3%A
 $elseif[$message==help_botlist-$authorID]
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Utilidade/Intera%C3%A7%C3%B5es/Ajuda/Help-Botlist.ruby
 $elseif[$and[$textSplit[$customID;/]$splitText[1]==+;$splitText[3]==botlist]==true]
+https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Utilidade/Intera%C3%A7%C3%B5es/Ajuda/Proximo-Help-Botlist.ruby
 
 $else
 https://raw.githubusercontent.com/Demom23345/Naomidori/main/Comandos/Inexistente.ruby
