@@ -1,3 +1,4 @@
+$setVar[3q;botlist;$authorID]
 $textSplit[queue-addbot-análisar;-]
 
 $var[desc;$if[$splitText[1]==queue]Veja a lista de espera dos bots enviados para ser análisados, os bots são enviados usando o comando `Q!addbot`.
