@@ -1,4 +1,4 @@
-$setVar[3q;botlist;$authorID]
+
 $textSplit[queue-addbot-análisar;-]
 
 $var[desc;$if[$splitText[1]==queue]Veja a lista de espera dos bots enviados para ser análisados, os bots são enviados usando o comando `Q!addbot`.
@@ -20,6 +20,6 @@ $toTitleCase[$splitText[5]]]
 $addField[Aliases;>>> $var[alts];no]
 $addField[Descrição;>>> $var[desc];no]
 
-$addButton[no;-/1/$authorID;;secondary;yes;<:voltar_2:1248243543441670234>]
+$addButton[no;-/1/botlist/$authorID;;secondary;yes;<:voltar_2:1248243543441670234>]
 $addButton[no;eviar_sugestão-$authorID;Enviar Sugestão;primary;no]
-$addButton[no;+/1/$authorID;;secondary;no;<:preoximo_2:1248243526525911151>]
+$addButton[no;+/1/botlist/$authorID;;secondary;no;<:preoximo_2:1248243526525911151>]
